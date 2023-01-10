@@ -1,4 +1,4 @@
-// import { tokens } from "../theme";
+import { tokens } from "../theme";
 
 export const mockDataTeam = [
   {
@@ -45,7 +45,7 @@ export const mockDataTeam = [
     id: 6,
     name: "Ever Melisandre",
     email: "evermelisandre@gmail.com",
-    age: 150,
+    age: 50,
     phone: "(232)545-6483",
     access: "manager",
   },
@@ -73,6 +73,79 @@ export const mockDataTeam = [
     phone: "(444)555-6239",
     access: "admin",
   },
+  {
+    id: 10,
+    name: "Gourav Lala",
+    email: "gourav@gmail.com",
+    age: 35,
+    phone: "(665)121-5454",
+    access: "user",
+  },
+  {
+    id: 12,
+    name: "Souarav Mondal",
+    email: "souaravMondal@gmail.com",
+    age: 42,
+    phone: "(421)314-2288",
+    access: "manager",
+  },
+  {
+    id: 13,
+    name: "Raju Lannister",
+    email: "raju@gmail.com",
+    age: 45,
+    phone: "(422)982-6739",
+    access: "user",
+  },
+  {
+    id: 14,
+    name: " Michal Stark",
+    email: "michal@gmail.com",
+    age: 16,
+    phone: "(921)425-6742",
+    access: "admin",
+  },
+  {
+    id: 15,
+    name: "Rahul Gandhi",
+    email: "rahulgandhi@gmail.com",
+    age: 52,
+    phone: "(421)445-1189",
+    access: "user",
+  },
+  {
+    id: 16,
+    name: "Khargey",
+    email: "Khargey@gmail.com",
+    age: 50,
+    phone: "(232)545-6483",
+    access: "manager",
+  },
+  {
+    id: 17,
+    name: "Malinga usman",
+    email: "usmanmalnga@gmail.com",
+    age: 44,
+    phone: "(543)124-0123",
+    access: "user",
+  },
+  {
+    id: 18,
+    name: "Akki Mishra",
+    email: "mishraakki@gmail.com",
+    age: 36,
+    phone: "(222)444-5555",
+    access: "user",
+  },
+  {
+    id: 19,
+    name: "patik Masta",
+    email: "mastapatil0024@gmail.com",
+    age: 65,
+    phone: "(444)555-6239",
+    access: "admin",
+  },
+  
 ];
 
 export const mockDataContacts = [
