@@ -13,8 +13,8 @@ const FAQ = () => {
   return (
     <Box m="20px">
       <Header title="FAQ" subtitle="Frequently Asked Questions Page" />
-
-      <Accordion defaultExpanded>
+        <Box height="75vh">
+        <Accordion defaultExpanded>
         <AccordionSummary expandIcon={<ExpandMoreIcon />}>
           <Typography color={colors.greenAccent[500]} variant="h5">
             An Important Question
@@ -79,6 +79,7 @@ const FAQ = () => {
           </Typography>
         </AccordionDetails>
       </Accordion>
+        </Box>
     </Box>
   );
 };
